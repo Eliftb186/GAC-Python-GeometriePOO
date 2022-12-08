@@ -67,3 +67,21 @@ class triangleEquilateral:
 triangleE = triangleEquilateral()
 print(triangleE.permimettre())
 print(triangleE.aire())
+
+
+class triangleRectangle:
+    def __init__(self):
+        self.cote1 = int(input("Entrez la longueur du premier côté : "))
+        self.cote2 = int(input("Entrez la longueur du deuxième côté : "))
+        self.cote3 = int(input("Entrez la longueur du troisième côté : "))
+
+    def perimetre(self):
+        return self.cote1+self.cote2+self.cote3
+
+    def aire(self):
+        return (self.cote1*self.cote2)/2
+
+
+triangleRectangle = triangleRectangle()
+print(triangleRectangle.perimetre())
+print(triangleRectangle.aire())
