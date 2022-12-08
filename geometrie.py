@@ -13,9 +13,9 @@ class carre:
         return self.cote**2
 
 
-carre = carre()
-print(carre.perimetre())
-print(carre.aire())
+# carre = carre()
+# print(carre.perimetre())
+# print(carre.aire())
 
 
 # une classe carré
@@ -31,9 +31,9 @@ class rectangle:
         return self.longueure*self.largeur
 
 
-rectangle = rectangle()
-print(rectangle.perimetre())
-print(rectangle.aire())
+# rectangle = rectangle()
+# print(rectangle.perimetre())
+# print(rectangle.aire())
 
 
 # une classe carré
@@ -49,10 +49,10 @@ class cercle:
         return pi*(self.rayon**2)
 
 
-cercle = cercle()
-print(cercle.diametre)
-print(cercle.perimetre())
-print(cercle.aire())
+# cercle = cercle()
+# print(cercle.diametre)
+# print(cercle.perimetre())
+# print(cercle.aire())
 
 
 # une classe carré
@@ -68,6 +68,7 @@ class triangleEquilateral:
         return (sqrt(3)/4)*(self.cote**2)
 
 
+<<<<<<< HEAD
 triangleE = triangleEquilateral()
 print(triangleE.permimettre())
 print(triangleE.aire())
@@ -89,3 +90,8 @@ class triangleRectangle:
 triangleRectangle = triangleRectangle()
 print(triangleRectangle.perimetre())
 print(triangleRectangle.aire())
+=======
+# triangleE = triangleEquilateral()
+# print(triangleE.permimettre())
+# print(triangleE.aire())
+>>>>>>> 651db1386c1b6113c84319f6874dced07e23377a
