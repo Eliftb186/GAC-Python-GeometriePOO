@@ -12,7 +12,6 @@ class carre:
     def aire(self):
         return self.cote**2
 
-
 # carre = carre()
 # print(carre.perimetre())
 # print(carre.aire())
@@ -30,7 +29,6 @@ class rectangle:
     def aire(self):
         return self.longueure*self.largeur
 
-
 # rectangle = rectangle()
 # print(rectangle.perimetre())
 # print(rectangle.aire())
@@ -47,7 +45,6 @@ class cercle:
 
     def aire(self):
         return pi*(self.rayon**2)
-
 
 # cercle = cercle()
 # print(cercle.diametre)
@@ -67,10 +64,10 @@ class triangleEquilateral:
     def aire(self):
         return (sqrt(3)/4)*(self.cote**2)
 
-
 # triangleE = triangleEquilateral()
 # print(triangleE.permimettre())
 # print(triangleE.aire())
+
 
 # une classe triangle rectangle
 class triangleRectangle:
@@ -85,7 +82,24 @@ class triangleRectangle:
     def aire(self):
         return (self.cote1*self.cote2)/2
 
-
 # triangleRectangle = triangleRectangle()
 # print(triangleRectangle.perimetre())
 # print(triangleRectangle.aire())
+
+
+# pour un cube
+class cube:
+    def __init__(self):
+        self.cote = int(input("quelle est la longeur d'un coté : "))
+
+    def volume(self):
+        return self.cote**3
+
+    def aire(self):
+        # on pourrais utiliqer la calss carré...
+        return (self.cote * self.cote) * 6
+
+
+cub = cube()
+print(cub.aire())
+print(cub.volume())
