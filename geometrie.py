@@ -1,5 +1,8 @@
 #!/opt/homebrew/bin/python3 python3
 
+from math import *
+
+
 class carre:
     def __init__(self):
         self.cote = int(input("Entrez la longueur des côtés du carré : "))
@@ -32,3 +35,21 @@ class cercle:
 rectangle = rectangle()
 print(rectangle.perimetre())
 print(rectangle.aire())
+
+
+class triangleEquilateral:
+    def __init__(self):
+        self.cote = int(
+            input("Entrez la longueur des côtés du triangle équilatéral : "))
+
+    def permimettre(self):
+        return self.cote * 3
+
+    def aire(self):
+        return (sqrt(3)/4)*(self.cote**2)
+
+
+triangleE = triangleEquilateral()
+print(triangleE.permimettre())
+print(triangleE.aire())
+== == == =
