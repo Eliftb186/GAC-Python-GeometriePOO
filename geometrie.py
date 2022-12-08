@@ -12,6 +12,11 @@ class carre:
         return self.cote**2
 
 
+carre = carre()
+print(carre.perimetre())
+print(carre.aire())
+
+
 class rectangle:
     def __init__(self):
         self.longueure = int(input("Entrez la longueur du rectangle : "))
@@ -24,15 +29,27 @@ class rectangle:
         return self.longueure*self.largeur
 
 
-class cercle:
-    def __init__(self, rayon):
-        self.rayon = rayon
-        self.diametre = rayon*2
-
-
 rectangle = rectangle()
 print(rectangle.perimetre())
 print(rectangle.aire())
+
+
+class cercle:
+    def __init__(self):
+        self.rayon = int(input("Entrez le rayon du cercle : "))
+        self.diametre = self.rayon*2
+
+    def perimetre(self):
+        return 2*pi*self.rayon
+
+    def aire(self):
+        return pi*(self.rayon**2)
+
+
+cercle = cercle()
+print(cercle.diametre)
+print(cercle.perimetre())
+print(cercle.aire())
 
 
 class triangleEquilateral:
