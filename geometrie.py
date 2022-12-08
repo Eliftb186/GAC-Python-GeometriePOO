@@ -1,6 +1,7 @@
 from math import *
 
 
+# une classe carré
 class carre:
     def __init__(self):
         self.cote = int(input("Entrez la longueur des côtés du carré : "))
@@ -17,6 +18,7 @@ print(carre.perimetre())
 print(carre.aire())
 
 
+# une classe carré
 class rectangle:
     def __init__(self):
         self.longueure = int(input("Entrez la longueur du rectangle : "))
@@ -34,6 +36,7 @@ print(rectangle.perimetre())
 print(rectangle.aire())
 
 
+# une classe carré
 class cercle:
     def __init__(self):
         self.rayon = int(input("Entrez le rayon du cercle : "))
@@ -52,6 +55,7 @@ print(cercle.perimetre())
 print(cercle.aire())
 
 
+# une classe carré
 class triangleEquilateral:
     def __init__(self):
         self.cote = int(
