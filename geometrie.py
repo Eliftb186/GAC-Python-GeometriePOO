@@ -14,14 +14,23 @@ print(carre.perimetre())
 print(carre.aire())
 
 class rectangle:
-	def __init__(self):
-		self.longueure = int(input("Entrez la longueur du rectangle : "))
-		self.largeur = int(input("Entrez la largeur du rectangle : "))
-	def perimetre(self):
-		return (self.longueure*2)+(self.largeur*2)
-	def aire(self):
-		return self.longueure*self.largeur
-	
+    def __init__(self):
+        self.longueure = int(input("Entrez la longueur du rectangle : "))
+        self.largeur = int(input("Entrez la largeur du rectangle : "))
+
+    def perimetre(self):
+        return (self.longueure*2)+(self.largeur*2)
+
+    def aire(self):
+        return self.longueure*self.largeur
+
+
+class cercle:
+    def __init__(self, rayon):
+        self.rayon = rayon
+        self.diametre = rayon*2
+
+
 rectangle = rectangle()
 print(rectangle.perimetre())
 print(rectangle.aire())
@@ -37,3 +46,4 @@ class triangleEquilateral:
 triangleE = triangleEquilateral()
 print(triangleE.permimettre())
 print(triangleE.aire())
+=======
