@@ -1,5 +1,3 @@
-#!/opt/homebrew/bin/python3 python3
-
 from math import *
 
 
@@ -52,4 +50,3 @@ class triangleEquilateral:
 triangleE = triangleEquilateral()
 print(triangleE.permimettre())
 print(triangleE.aire())
-== == == =
