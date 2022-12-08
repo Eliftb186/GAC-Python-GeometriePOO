@@ -18,7 +18,7 @@ class carre:
 # print(carre.aire())
 
 
-# une classe carré
+# une classe rectangle
 class rectangle:
     def __init__(self):
         self.longueure = int(input("Entrez la longueur du rectangle : "))
@@ -36,7 +36,7 @@ class rectangle:
 # print(rectangle.aire())
 
 
-# une classe carré
+# une classe cercle
 class cercle:
     def __init__(self):
         self.rayon = int(input("Entrez le rayon du cercle : "))
@@ -55,7 +55,7 @@ class cercle:
 # print(cercle.aire())
 
 
-# une classe carré
+# une classe triangle Equilateral
 class triangleEquilateral:
     def __init__(self):
         self.cote = int(
@@ -68,12 +68,11 @@ class triangleEquilateral:
         return (sqrt(3)/4)*(self.cote**2)
 
 
-<<<<<<< HEAD
-triangleE = triangleEquilateral()
-print(triangleE.permimettre())
-print(triangleE.aire())
+# triangleE = triangleEquilateral()
+# print(triangleE.permimettre())
+# print(triangleE.aire())
 
-
+# une classe triangle rectangle
 class triangleRectangle:
     def __init__(self):
         self.cote1 = int(input("Entrez la longueur du premier côté : "))
@@ -87,11 +86,6 @@ class triangleRectangle:
         return (self.cote1*self.cote2)/2
 
 
-triangleRectangle = triangleRectangle()
-print(triangleRectangle.perimetre())
-print(triangleRectangle.aire())
-=======
-# triangleE = triangleEquilateral()
-# print(triangleE.permimettre())
-# print(triangleE.aire())
->>>>>>> 651db1386c1b6113c84319f6874dced07e23377a
+# triangleRectangle = triangleRectangle()
+# print(triangleRectangle.perimetre())
+# print(triangleRectangle.aire())
