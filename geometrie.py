@@ -11,11 +11,6 @@ class carre:
         return self.cote**2
 
 
-carre = carre()
-print(carre.perimetre())
-print(carre.aire())
-
-
 class rectangle:
     def __init__(self):
         self.longueure = int(input("Entrez la longueur du rectangle : "))
