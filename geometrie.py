@@ -1,6 +1,5 @@
 from math import *
 
-
 # une classe carré
 class carre:
     def __init__(self):
@@ -33,7 +32,6 @@ class rectangle:
 # print(rectangle.perimetre())
 # print(rectangle.aire())
 
-
 # une classe cercle
 class cercle:
     def __init__(self):
@@ -51,7 +49,6 @@ class cercle:
 # print(cercle.perimetre())
 # print(cercle.aire())
 
-
 # une classe triangle Equilateral
 class triangleEquilateral:
     def __init__(self):
@@ -67,7 +64,6 @@ class triangleEquilateral:
 # triangleE = triangleEquilateral()
 # print(triangleE.permimettre())
 # print(triangleE.aire())
-
 
 # une classe triangle rectangle
 class triangleRectangle:
@@ -86,7 +82,6 @@ class triangleRectangle:
 # print(triangleRectangle.perimetre())
 # print(triangleRectangle.aire())
 
-
 # pour un cube
 class cube:
     def __init__(self):
@@ -102,7 +97,6 @@ class cube:
 # cub = cube()
 # print(cub.aire())
 # print(cub.volume())
-
 
 class pyramideBaseCarré:
     def __init__(self):
