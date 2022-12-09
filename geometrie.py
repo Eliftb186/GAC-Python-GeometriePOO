@@ -99,7 +99,26 @@ class cube:
         # on pourrais utiliqer la calss carré...
         return (self.cote * self.cote) * 6
 
+# cub = cube()
+# print(cub.aire())
+# print(cub.volume())
 
-cub = cube()
-print(cub.aire())
-print(cub.volume())
+
+class pyramideBaseCarré:
+    def __init__(self):
+        self.largeurBase = int(input("entrez largeur de la base : "))
+        self.hauteurBase = int(input("entrez hauteur de la base : "))
+        self.hauteurPyra = int(input("entrez la hauteur de la pyramide : "))
+
+    def airBase(self):
+        return self.largeurBase * self.hauteurBase
+
+    # ne marche pas mais je ne sait pas pourquoi
+    # TypeError: unsupported operand type(s) for *: 'method' and 'int'
+    def volume(self):
+        return (self.airBase * self.hauteurPyra) / 3
+
+
+pyra = pyramideBaseCarré()
+print(pyra.airBase())
+print(pyra.volume())
