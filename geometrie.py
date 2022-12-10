@@ -1,6 +1,8 @@
 from math import *
 
 # une classe carré
+
+
 class carre:
     def __init__(self):
         self.cote = int(input("Entrez la longueur des côtés du carré : "))
@@ -33,6 +35,8 @@ class rectangle:
 # print(rectangle.aire())
 
 # une classe cercle
+
+
 class cercle:
     def __init__(self):
         self.rayon = int(input("Entrez le rayon du cercle : "))
@@ -50,6 +54,8 @@ class cercle:
 # print(cercle.aire())
 
 # une classe triangle Equilateral
+
+
 class triangleEquilateral:
     def __init__(self):
         self.cote = int(
@@ -66,6 +72,8 @@ class triangleEquilateral:
 # print(triangleE.aire())
 
 # une classe triangle rectangle
+
+
 class triangleRectangle:
     def __init__(self):
         self.cote1 = int(input("Entrez la longueur du premier côté : "))
@@ -83,6 +91,8 @@ class triangleRectangle:
 # print(triangleRectangle.aire())
 
 # pour un cube
+
+
 class cube:
     def __init__(self):
         self.cote = int(input("quelle est la longeur d'un coté : "))
@@ -98,6 +108,7 @@ class cube:
 # print(cub.aire())
 # print(cub.volume())
 
+
 class pyramideBaseCarré:
     def __init__(self):
         self.largeurBase = int(input("entrez largeur de la base : "))
@@ -110,7 +121,7 @@ class pyramideBaseCarré:
     # ne marche pas mais je ne sait pas pourquoi
     # TypeError: unsupported operand type(s) for *: 'method' and 'int'
     def volume(self):
-        return (self.airBase * self.hauteurPyra) / 3
+        return ((self.largeurBase * self.hauteurBase) * self.hauteurPyra) / 3
 
 
 pyra = pyramideBaseCarré()
